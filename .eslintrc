@@ -3,8 +3,12 @@
   "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "es6": true,
-    "mocha": true
+    "es6": true
   },
-  "rules": {}
+  "rules": {
+    "no-tabs": "off",
+    "semi": ["error", "never"],
+    "react/jsx-indent": [2, "tab"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+  }
 }
